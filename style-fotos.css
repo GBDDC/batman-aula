@@ -93,6 +93,7 @@ footer {
 span {
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
 }
 
 .footer-navigation {
@@ -103,4 +104,12 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media(max-width: 768px){
+
+.fotos-content{
+  display: block;
+}
+
 }

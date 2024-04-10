@@ -52,5 +52,28 @@ footer {
 span {
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
 }
 
+@media(max-width: 768px){
+  
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    #coment-1{
+        width: 100%;
+        padding: 20px 5px;
+    }
+
+    #coment-2{
+        width: 100%;
+        padding: 20px 5px;
+    }
+
+    #coment-3{
+        width: 100%;
+        padding: 20px 5px;
+    }
+}
